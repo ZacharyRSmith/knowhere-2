@@ -2,7 +2,9 @@ import { Component, OnInit } from '@angular/core';
 import { RouteParams } from '@angular/router-deprecated';
 
 import { Destination } from './destination';
+import { Venue } from './venue';
 import { DestinationService } from './destination.service';
+import { VenueService } from './venue.service';
 
 @Component({
   moduleId: module.id,
@@ -12,15 +14,20 @@ import { DestinationService } from './destination.service';
 export class DestinationDetailComponent implements OnInit {
 
   destination: Destination;
+  venues: Venue[];
 
   constructor(
     private destinationService: DestinationService,
-    private routeParams: RouteParams) { }
+    private routeParams: RouteParams,
+    private venueService: VenueService) { }
 
   ngOnInit() {
     let id = +this.routeParams.get('id');
 
     this.destinationService.getDestination(id)
       .then((d: Destination) => this.destination = d);
+
+    this.venueService.getVenues()
+      .then((vs: Venue[]) => this.venues = vs);
   }
 }

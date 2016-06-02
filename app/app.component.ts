@@ -8,6 +8,7 @@ import { GroupsComponent } from './groups.component';
 import { HomeComponent } from './home.component';
 import { DestinationService } from './destination.service';
 import { GroupService } from './group.service';
+import { VenueService } from './venue.service';
 
 @Component({
   directives: [ROUTER_DIRECTIVES],
@@ -15,7 +16,8 @@ import { GroupService } from './group.service';
   providers: [
     ROUTER_PROVIDERS,
     DestinationService,
-    GroupService
+    GroupService,
+    VenueService
   ],
 
   selector: 'my-app',
