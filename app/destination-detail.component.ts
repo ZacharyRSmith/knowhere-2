@@ -30,4 +30,8 @@ export class DestinationDetailComponent implements OnInit {
     this.venueService.getVenues()
       .then((vs: Venue[]) => this.venues = vs);
   }
+
+  showMoreInfo(venue: Venue) {
+    alert(JSON.stringify(venue));
+  }
 }
