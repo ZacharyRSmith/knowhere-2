@@ -1,7 +1,38 @@
-import {Component} from '@angular/core';
+import { Component } from '@angular/core';
+import { RouteConfig, ROUTER_DIRECTIVES, ROUTER_PROVIDERS }
+  from '@angular/router-deprecated';
+
+import { HomeComponent } from './home.component';
 
 @Component({
-    selector: 'my-app',
-    template: '<h1>My First Angular 2 App</h1>'
+  directives: [ROUTER_DIRECTIVES],
+
+  providers: [
+    ROUTER_PROVIDERS
+  ],
+
+  selector: 'my-app',
+
+  styleUrls: ['app/app.component.css'],
+
+  template: `
+    <h1>{{title}}</h1>
+    <nav>
+      <a [routerLink]="['Home']">Home</a>
+    </nav>
+    <router-outlet></router-outlet>
+  `
 })
-export class AppComponent { }
+
+@RouteConfig([
+  {
+    path: '/',
+    name: 'Home',
+    component: HomeComponent,
+    useAsDefault: true
+  }
+])
+
+export class AppComponent {
+  title = 'Knowhere';
+}
