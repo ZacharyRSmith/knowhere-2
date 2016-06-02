@@ -10,12 +10,19 @@ import { GroupService } from './group.service';
 })
 
 export class GroupsComponent implements OnInit {
+
   groups: Group[];
+  newGroup: Group = new Group();
 
   constructor(private groupService: GroupService) { }
 
   ngOnInit() {
     this.getGroups();
+  }
+
+  createGroup() {
+    this.groupService.create(this.newGroup);
+    this.newGroup = new Group();
   }
 
   getGroups() {

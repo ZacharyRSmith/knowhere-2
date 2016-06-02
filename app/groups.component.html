@@ -4,3 +4,11 @@
     {{group.name}}
   </li>
 </ul>
+
+<h4>Create a Group</h4>
+
+<div>
+  <label>Name: </label>
+  <input [(ngModel)]="newGroup.name" placeholder="name" />
+</div>
+<button (click)="createGroup()">Create</button>
