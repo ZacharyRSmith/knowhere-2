@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router-deprecated';
 
 import { Group } from './group';
 import { GroupService } from './group.service';
@@ -14,7 +15,9 @@ export class GroupsComponent implements OnInit {
   groups: Group[];
   newGroup: Group = new Group();
 
-  constructor(private groupService: GroupService) { }
+  constructor(
+    private groupService: GroupService,
+    private router: Router) { }
 
   ngOnInit() {
     this.getGroups();
@@ -29,5 +32,10 @@ export class GroupsComponent implements OnInit {
     this.groupService.getGroups().then(groups => {
       this.groups = groups;
     });
+  }
+
+  goToDetail(group: Group) {
+    let link = ['GroupDetail', { id: group.id }];
+    this.router.navigate(link);
   }
 }

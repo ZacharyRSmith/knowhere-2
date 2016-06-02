@@ -9,9 +9,24 @@ export class GroupService {
     return Promise.resolve(GROUPS)
       .then(groups => {
         // TODO validate
+        const lastId = groups.slice(-1)[0].id;
+        group.id = lastId + 1;
         groups.push(group);
         alert('success!');
       });
+  }
+
+  del(id: number) {
+    return Promise.resolve(GROUPS)
+      .then(groups => {
+        const foundIdx = groups.findIndex(group => group.id === id);
+        groups.splice(foundIdx, 1);
+      });
+  }
+
+  getGroup(id: number) {
+    return Promise.resolve(GROUPS)
+      .then(groups => groups.find(group => group.id === id));
   }
 
   getGroups() {

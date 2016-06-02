@@ -1,7 +1,7 @@
 import { Group } from './group';
 
 export var GROUPS: Group[] = [
-  { 'name': 'Justice League' },
-  { 'name': 'Marvel' },
-  { 'name': 'DC' }
+  { 'id': 1, 'name': 'Justice League' },
+  { 'id': 2, 'name': 'Marvel' },
+  { 'id': 3, 'name': 'DC' }
 ];

@@ -1,0 +1,17 @@
+<div *ngIf="group">
+  <h2>{{group.name}} details!</h2>
+  <div>
+    <label>Id: </label>{{group.id}}
+  </div>
+  <div>
+    <label>Name: </label>
+    <input [(ngModel)]="group.name" />
+  </div>
+  <button (click)="del()">Delete</button>
+</div>
+
+<div *ngIf="!group">
+  Loading...
+</div>
+
+<button (click)="goBack()">Back</button>

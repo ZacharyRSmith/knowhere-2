@@ -1,7 +1,8 @@
 <h2>Groups</h2>
 <ul class="groups">
-  <li *ngFor="let group of groups">
-    {{group.name}}
+  <li *ngFor="let group of groups"
+    (click)="goToDetail(group)">
+    {{group.id}}: {{group.name}}
   </li>
 </ul>
 
