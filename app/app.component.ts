@@ -2,9 +2,11 @@ import { Component } from '@angular/core';
 import { RouteConfig, ROUTER_DIRECTIVES, ROUTER_PROVIDERS }
   from '@angular/router-deprecated';
 
+import { DestinationDetailComponent } from './destination-detail.component';
 import { GroupDetailComponent } from './group-detail.component';
 import { GroupsComponent } from './groups.component';
 import { HomeComponent } from './home.component';
+import { DestinationService } from './destination.service';
 import { GroupService } from './group.service';
 
 @Component({
@@ -12,6 +14,7 @@ import { GroupService } from './group.service';
 
   providers: [
     ROUTER_PROVIDERS,
+    DestinationService,
     GroupService
   ],
 
@@ -35,6 +38,11 @@ import { GroupService } from './group.service';
     name: 'Home',
     component: HomeComponent,
     useAsDefault: true
+  },
+  {
+    path: '/destination-detail',
+    name: 'DestinationDetail',
+    component: DestinationDetailComponent
   },
   {
     path: '/group-detail',
