@@ -2,13 +2,16 @@ import { Component } from '@angular/core';
 import { RouteConfig, ROUTER_DIRECTIVES, ROUTER_PROVIDERS }
   from '@angular/router-deprecated';
 
+import { GroupsComponent } from './groups.component';
 import { HomeComponent } from './home.component';
+import { GroupService } from './group.service';
 
 @Component({
   directives: [ROUTER_DIRECTIVES],
 
   providers: [
-    ROUTER_PROVIDERS
+    ROUTER_PROVIDERS,
+    GroupService
   ],
 
   selector: 'my-app',
@@ -19,6 +22,7 @@ import { HomeComponent } from './home.component';
     <h1>{{title}}</h1>
     <nav>
       <a [routerLink]="['Home']">Home</a>
+      <a [routerLink]="['Groups']">Groups</a>
     </nav>
     <router-outlet></router-outlet>
   `
@@ -30,6 +34,11 @@ import { HomeComponent } from './home.component';
     name: 'Home',
     component: HomeComponent,
     useAsDefault: true
+  },
+  {
+    path: '/groups',
+    name: 'Groups',
+    component: GroupsComponent
   }
 ])
 

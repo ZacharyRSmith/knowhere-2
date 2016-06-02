@@ -1,5 +1,7 @@
 import { Component } from '@angular/core';
 
+import { GroupService } from './group.service';
+
 @Component({
   selector: 'home',
 
