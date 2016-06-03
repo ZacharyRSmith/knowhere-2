@@ -4,6 +4,7 @@
   <div class="row">
     <div *ngFor="let venue of venues" class="col-md-3 col-sm-4">
       {{venue.name}}
+      <button (click)="addToRatings(venue)">Add to Ratings</button>
       <button (click)="showMoreInfo(venue)">More Info</button>
     </div>
   </div>

@@ -4,6 +4,7 @@ import { RouteParams } from '@angular/router-deprecated';
 import { Destination } from './destination';
 import { Venue } from './venue';
 import { DestinationService } from './destination.service';
+import { RatingService } from './rating.service';
 import { VenueService } from './venue.service';
 
 @Component({
@@ -18,6 +19,7 @@ export class DestinationDetailComponent implements OnInit {
 
   constructor(
     private destinationService: DestinationService,
+    private ratingService: RatingService,
     private routeParams: RouteParams,
     private venueService: VenueService) { }
 
@@ -29,6 +31,10 @@ export class DestinationDetailComponent implements OnInit {
 
     this.venueService.getVenues()
       .then((vs: Venue[]) => this.venues = vs);
+  }
+
+  addToRatings(venue: Venue) {
+    this.ratingService.add(venue);
   }
 
   showMoreInfo(venue: Venue) {

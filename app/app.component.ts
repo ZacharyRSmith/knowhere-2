@@ -8,6 +8,7 @@ import { GroupsComponent } from './groups.component';
 import { HomeComponent } from './home.component';
 import { DestinationService } from './destination.service';
 import { GroupService } from './group.service';
+import { RatingService } from './rating.service';
 import { VenueService } from './venue.service';
 
 @Component({
@@ -17,6 +18,7 @@ import { VenueService } from './venue.service';
     ROUTER_PROVIDERS,
     DestinationService,
     GroupService,
+    RatingService,
     VenueService
   ],
 
