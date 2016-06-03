@@ -15,10 +15,24 @@ export class RatingService {
       });
   }
 
-  del(venue: Venue) {
-    return Promise.resolve(RATINGS);
-    // TODO
-  }
+  // del(venue: Venue) {
+  //   return Promise.resolve(RATINGS);
+  //   // TODO
+  // }
+  del(rating: Rating) { return Promise.resolve(RATINGS); }
+
+  // delUserRatingFromGroup(ratingObj: Object) {
+  //   return $http({
+  //     method: 'DELETE',
+  //     url: '/api/rating',
+  //     params: {
+  //       average: ratingObj.avgRating,
+  //       groupId: $rootScope.currentGroup._id,
+  //       userId: $rootScope.currentUser._id,
+  //       venueId: ratingObj.venue._id
+  //     }
+  //   });
+  // }
 
   getRatings() {
     return Promise.resolve(RATINGS)

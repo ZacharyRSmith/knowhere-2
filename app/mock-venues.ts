@@ -2,7 +2,7 @@ import { Venue } from './venue';
 
 export var VENUES: Venue[] = [
   {
-    "id": "1",
+    "id": 1,
     "venue_type_id": 1,
     "name": "Greenwich Hotel",
     "tripexpert_score": 99,
@@ -12,7 +12,7 @@ export var VENUES: Venue[] = [
     "index_photo": "http://static.tripexpert.com/images/venues/index_photos/index_retina/637972.jpg"
   },
   {
-    "id": "2",
+    "id": 2,
     "venue_type_id": 1,
     "name": "Crosby Street Hotel",
     "tripexpert_score": 98,
@@ -22,7 +22,7 @@ export var VENUES: Venue[] = [
     "index_photo": "http://static.tripexpert.com/images/venues/index_photos/index_retina/636532.jpg"
   },
   {
-    "id": "3",
+    "id": 3,
     "venue_type_id": 1,
     "name": "The NoMad Hotel",
     "tripexpert_score": 97,
@@ -32,7 +32,7 @@ export var VENUES: Venue[] = [
     "index_photo": "http://static.tripexpert.com/images/venues/index_photos/index_retina/634638.jpg"
   },
   {
-    "id": "4",
+    "id": 4,
     "venue_type_id": 1,
     "name": "The Mark",
     "tripexpert_score": 96,
@@ -42,7 +42,7 @@ export var VENUES: Venue[] = [
     "index_photo": "http://static.tripexpert.com/images/venues/index_photos/index_retina/636378.jpg"
   },
   {
-    "id": "5",
+    "id": 5,
     "venue_type_id": 1,
     "name": "Andaz Wall Street",
     "tripexpert_score": 95,
@@ -52,7 +52,7 @@ export var VENUES: Venue[] = [
     "index_photo": "http://static.tripexpert.com/images/venues/index_photos/index_retina/638846.jpg"
   },
   {
-    "id": "6",
+    "id": 6,
     "venue_type_id": 1,
     "name": "The Plaza Hotel",
     "tripexpert_score": 94,
@@ -62,7 +62,7 @@ export var VENUES: Venue[] = [
     "index_photo": "http://static.tripexpert.com/images/venues/index_photos/index_retina/640432.jpg"
   },
   {
-    "id": "7",
+    "id": 7,
     "venue_type_id": 1,
     "name": "Mandarin Oriental, New York",
     "tripexpert_score": 93,
@@ -72,7 +72,7 @@ export var VENUES: Venue[] = [
     "index_photo": "http://static.tripexpert.com/images/venues/index_photos/index_retina/634706.jpg"
   },
   {
-    "id": "8",
+    "id": 8,
     "venue_type_id": 1,
     "name": "The Carlyle",
     "tripexpert_score": 92,
@@ -82,7 +82,7 @@ export var VENUES: Venue[] = [
     "index_photo": "http://static.tripexpert.com/images/venues/index_photos/index_retina/639686.jpg"
   },
   {
-    "id": "9",
+    "id": 9,
     "venue_type_id": 1,
     "name": "The Surrey",
     "tripexpert_score": 91,
@@ -92,7 +92,7 @@ export var VENUES: Venue[] = [
     "index_photo": "http://static.tripexpert.com/images/venues/index_photos/index_retina/639968.jpg"
   },
   {
-    "id": "10",
+    "id": 10,
     "venue_type_id": 1,
     "name": "The London NYC",
     "tripexpert_score": 90,
@@ -102,7 +102,7 @@ export var VENUES: Venue[] = [
     "index_photo": "http://static.tripexpert.com/images/venues/index_photos/index_retina/635043.jpg"
   },
   {
-    "id": "11",
+    "id": 11,
     "venue_type_id": 1,
     "name": "Gramercy Park Hotel",
     "tripexpert_score": 89,
@@ -112,7 +112,7 @@ export var VENUES: Venue[] = [
     "index_photo": "http://static.tripexpert.com/images/venues/index_photos/index_retina/636324.jpg"
   },
   {
-    "id": "12",
+    "id": 12,
     "venue_type_id": 1,
     "name": "The James New York",
     "tripexpert_score": 88,
@@ -122,7 +122,7 @@ export var VENUES: Venue[] = [
     "index_photo": "http://static.tripexpert.com/images/venues/index_photos/index_retina/636841.jpg"
   },
   {
-    "id": "13",
+    "id": 13,
     "venue_type_id": 1,
     "name": "Ace Hotel NYC",
     "tripexpert_score": 87,
@@ -132,7 +132,7 @@ export var VENUES: Venue[] = [
     "index_photo": "http://static.tripexpert.com/images/venues/index_photos/index_retina/637891.jpg"
   },
   {
-    "id": "14",
+    "id": 14,
     "venue_type_id": 1,
     "name": "The Bowery Hotel",
     "tripexpert_score": 86,
@@ -142,7 +142,7 @@ export var VENUES: Venue[] = [
     "index_photo": "http://static.tripexpert.com/images/venues/index_photos/index_retina/635972.jpg"
   },
   {
-    "id": "15",
+    "id": 15,
     "venue_type_id": 1,
     "name": "The Chatwal, New York",
     "tripexpert_score": 85,
@@ -152,7 +152,7 @@ export var VENUES: Venue[] = [
     "index_photo": "http://static.tripexpert.com/images/venues/index_photos/index_retina/636092.jpg"
   },
   {
-    "id": "16",
+    "id": 16,
     "venue_type_id": 1,
     "name": "Andaz 5th Avenue",
     "tripexpert_score": 84,
@@ -162,7 +162,7 @@ export var VENUES: Venue[] = [
     "index_photo": "http://static.tripexpert.com/images/venues/index_photos/index_retina/640400.jpg"
   },
   {
-    "id": "17",
+    "id": 17,
     "venue_type_id": 1,
     "name": "The Peninsula New York",
     "tripexpert_score": 83,
@@ -172,7 +172,7 @@ export var VENUES: Venue[] = [
     "index_photo": "http://static.tripexpert.com/images/venues/index_photos/index_retina/635851.png"
   },
   {
-    "id": "18",
+    "id": 18,
     "venue_type_id": 1,
     "name": "Hotel on Rivington",
     "tripexpert_score": 82,
@@ -182,7 +182,7 @@ export var VENUES: Venue[] = [
     "index_photo": "http://static.tripexpert.com/images/venues/index_photos/index_retina/636275.jpg"
   },
   {
-    "id": "19",
+    "id": 19,
     "venue_type_id": 1,
     "name": "Gansevoort Meatpacking NYC",
     "tripexpert_score": 81,
@@ -192,7 +192,7 @@ export var VENUES: Venue[] = [
     "index_photo": "http://static.tripexpert.com/images/venues/index_photos/index_retina/636288.jpg"
   },
   {
-    "id": "20",
+    "id": 20,
     "venue_type_id": 1,
     "name": "The Ritz-Carlton Central Park",
     "tripexpert_score": 80,
@@ -202,7 +202,7 @@ export var VENUES: Venue[] = [
     "index_photo": "http://static.tripexpert.com/images/venues/index_photos/index_retina/638319.jpg"
   }, 
   {
-    "id": "21",
+    "id": 21,
     "venue_type_id": 2,
     "name": "Daniel",
     "tripexpert_score": 99,
@@ -212,7 +212,7 @@ export var VENUES: Venue[] = [
     "index_photo": "http://static.tripexpert.com/images/venues/index_photos/index_retina/2377015.jpg"
   },
   {
-    "id": "22",
+    "id": 22,
     "venue_type_id": 2,
     "name": "Le Bernardin",
     "tripexpert_score": 98,
@@ -222,7 +222,7 @@ export var VENUES: Venue[] = [
     "index_photo": "http://static.tripexpert.com/images/venues/index_photos/index_retina/2365341.png"
   },
   {
-    "id": "23",
+    "id": 23,
     "venue_type_id": 2,
     "name": "Per Se",
     "tripexpert_score": 97,
@@ -232,7 +232,7 @@ export var VENUES: Venue[] = [
     "index_photo": "http://static.tripexpert.com/images/venues/index_photos/index_retina/2368725.jpg"
   },
   {
-    "id": "24",
+    "id": 24,
     "venue_type_id": 2,
     "name": "Eleven Madison Park",
     "tripexpert_score": 96,
@@ -242,7 +242,7 @@ export var VENUES: Venue[] = [
     "index_photo": "http://static.tripexpert.com/images/venues/index_photos/index_retina/2382342.jpg"
   },
   {
-    "id": "25",
+    "id": 25,
     "venue_type_id": 2,
     "name": "Marea",
     "tripexpert_score": 95,
@@ -252,7 +252,7 @@ export var VENUES: Venue[] = [
     "index_photo": "http://static.tripexpert.com/images/venues/index_photos/index_retina/2329753.jpg"
   },
   {
-    "id": "26",
+    "id": 26,
     "venue_type_id": 2,
     "name": "The Spotted Pig",
     "tripexpert_score": 94,
@@ -262,7 +262,7 @@ export var VENUES: Venue[] = [
     "index_photo": "http://static.tripexpert.com/images/venues/index_photos/index_retina/946494.jpg"
   },
   {
-    "id": "27",
+    "id": 27,
     "venue_type_id": 2,
     "name": "Momofuku Noodle Bar",
     "tripexpert_score": 93,
@@ -272,7 +272,7 @@ export var VENUES: Venue[] = [
     "index_photo": "http://static.tripexpert.com/images/venues/index_photos/index_retina/2324911.jpg"
   },
   {
-    "id": "28",
+    "id": 28,
     "venue_type_id": 2,
     "name": "The Breslin",
     "tripexpert_score": 92,
@@ -282,7 +282,7 @@ export var VENUES: Venue[] = [
     "index_photo": "http://static.tripexpert.com/images/venues/index_photos/index_retina/2330262.jpg"
   },
   {
-    "id": "29",
+    "id": 29,
     "venue_type_id": 2,
     "name": "Jean Georges",
     "tripexpert_score": 91,
@@ -292,17 +292,17 @@ export var VENUES: Venue[] = [
     "index_photo": "http://static.tripexpert.com/images/venues/index_photos/index_retina/2331423.jpg"
   },
   {
-    "id": "30",
+    "id": 30,
     "venue_type_id": 2,
     "name": "The Dutch",
     "tripexpert_score": 90,
     "rank_in_destination": 10,
-    "3core": 902,
+    "score": 902,
     "description": "An instant hit when it opened, The Dutch continues to be upbeat, boisterous, and hotter than ever.",
     "index_photo": "http://static.tripexpert.com/images/venues/index_photos/index_retina/2337772.jpg"
   },
   {
-    "id": "31",
+    "id": 31,
     "venue_type_id": 2,
     "name": "Babbo",
     "tripexpert_score": 89,
@@ -312,7 +312,7 @@ export var VENUES: Venue[] = [
     "index_photo": "http://static.tripexpert.com/images/venues/index_photos/index_retina/2360740.JPG"
   },
   {
-    "id": "32",
+    "id": 32,
     "venue_type_id": 2,
     "name": "Masa",
     "tripexpert_score": 88,
@@ -322,7 +322,7 @@ export var VENUES: Venue[] = [
     "index_photo": "http://static.tripexpert.com/images/venues/index_photos/index_retina/2368548.jpg"
   },
   {
-    "id": "33",
+    "id": 33,
     "venue_type_id": 2,
     "name": "Del Posto",
     "tripexpert_score": 87,
@@ -332,7 +332,7 @@ export var VENUES: Venue[] = [
     "index_photo": "http://static.tripexpert.com/images/venues/index_photos/index_retina/946179.jpg"
   },
   {
-    "id": "34",
+    "id": 34,
     "venue_type_id": 2,
     "name": "Momofuku Ssam Bar",
     "tripexpert_score": 86,
@@ -342,7 +342,7 @@ export var VENUES: Venue[] = [
     "index_photo": "http://static.tripexpert.com/images/venues/index_photos/index_retina/950340.jpg"
   },
   {
-    "id": "35",
+    "id": 35,
     "venue_type_id": 2,
     "name": "Momofuku Ko",
     "tripexpert_score": 85,
@@ -352,7 +352,7 @@ export var VENUES: Venue[] = [
     "index_photo": "http://static.tripexpert.com/images/venues/index_photos/index_retina/955033.jpg"
   },
   {
-    "id": "36",
+    "id": 36,
     "venue_type_id": 2,
     "name": "Pok Pok NY",
     "tripexpert_score": 84,
@@ -362,7 +362,7 @@ export var VENUES: Venue[] = [
     "index_photo": "http://static.tripexpert.com/images/venues/index_photos/index_retina/1153316.jpg"
   },
   {
-    "id": "37",
+    "id": 37,
     "venue_type_id": 2,
     "name": "Peter Luger Steak House",
     "tripexpert_score": 83,
@@ -372,7 +372,7 @@ export var VENUES: Venue[] = [
     "index_photo": "http://static.tripexpert.com/images/venues/index_photos/index_retina/1165558.jpg"
   },
   {
-    "id": "38",
+    "id": 38,
     "venue_type_id": 2,
     "name": "Locanda Verde",
     "tripexpert_score": 82,
@@ -382,7 +382,7 @@ export var VENUES: Venue[] = [
     "index_photo": "http://static.tripexpert.com/images/venues/index_photos/index_retina/2325146.jpg"
   },
   {
-    "id": "39",
+    "id": 39,
     "venue_type_id": 2,
     "name": "aldea",
     "tripexpert_score": 81,
@@ -392,7 +392,7 @@ export var VENUES: Venue[] = [
     "index_photo": "http://static.tripexpert.com/images/venues/index_photos/index_retina/2329740.jpg"
   },
   {
-    "id": "40",
+    "id": 40,
     "venue_type_id": 2,
     "name": "Brushstroke",
     "tripexpert_score": 80,
@@ -402,7 +402,7 @@ export var VENUES: Venue[] = [
     "index_photo": "http://static.tripexpert.com/images/venues/index_photos/index_retina/2339094.jpg"
   }, 
   {
-    "id": "41",
+    "id": 41,
     "venue_type_id": 3,
     "name": "Central Park",
     "tripexpert_score": 99,
@@ -412,7 +412,7 @@ export var VENUES: Venue[] = [
     "index_photo": "http://static.tripexpert.com/images/venues/index_photos/index_retina/2325317.jpg"
   },
   {
-    "id": "42",
+    "id": 42,
     "venue_type_id": 3,
     "name": "Frick Collection",
     "tripexpert_score": 98,
@@ -422,7 +422,7 @@ export var VENUES: Venue[] = [
     "index_photo": "http://static.tripexpert.com/images/venues/index_photos/index_retina/2325858.jpg"
   },
   {
-    "id": "43",
+    "id": 43,
     "venue_type_id": 3,
     "name": "Empire State Building",
     "tripexpert_score": 97,
@@ -432,7 +432,7 @@ export var VENUES: Venue[] = [
     "index_photo": "http://static.tripexpert.com/images/venues/index_photos/index_retina/2325054.jpg"
   },
   {
-    "id": "44",
+    "id": 44,
     "venue_type_id": 3,
     "name": "Brooklyn Bridge",
     "tripexpert_score": 96,
@@ -442,7 +442,7 @@ export var VENUES: Venue[] = [
     "index_photo": "http://static.tripexpert.com/images/venues/index_photos/index_retina/1148053.jpg"
   },
   {
-    "id": "45",
+    "id": 45,
     "venue_type_id": 3,
     "name": "Tenement Museum",
     "tripexpert_score": 95,
@@ -452,7 +452,7 @@ export var VENUES: Venue[] = [
     "index_photo": "http://static.tripexpert.com/images/venues/index_photos/index_retina/2325075.jpg"
   },
   {
-    "id": "46",
+    "id": 46,
     "venue_type_id": 3,
     "name": "The Metropolitan Museum of Art",
     "tripexpert_score": 94,
@@ -462,7 +462,7 @@ export var VENUES: Venue[] = [
     "index_photo": "http://static.tripexpert.com/images/venues/index_photos/index_retina/2325303.jpg"
   },
   {
-    "id": "47",
+    "id": 47,
     "venue_type_id": 3,
     "name": "Museum of Modern Art",
     "tripexpert_score": 93,
@@ -472,7 +472,7 @@ export var VENUES: Venue[] = [
     "index_photo": "http://static.tripexpert.com/images/venues/index_photos/index_retina/2325309.jpg"
   },
   {
-    "id": "48",
+    "id": 48,
     "venue_type_id": 3,
     "name": "Solomon R. Guggenheim Museum",
     "tripexpert_score": 92,
@@ -482,7 +482,7 @@ export var VENUES: Venue[] = [
     "index_photo": "http://static.tripexpert.com/images/venues/index_photos/index_retina/2326027.jpg"
   },
   {
-    "id": "49",
+    "id": 49,
     "venue_type_id": 3,
     "name": "American Museum of Natural History",
     "tripexpert_score": 91,
@@ -492,17 +492,17 @@ export var VENUES: Venue[] = [
     "index_photo": "http://static.tripexpert.com/images/venues/index_photos/index_retina/2336909.JPG"
   },
   {
-    "id": "50",
+    "id": 50,
     "venue_type_id": 3,
     "name": "Grand Central Terminal",
     "tripexpert_score": 90,
     "rank_in_destination": 10,
-    "5core": 90,
+    "score": 90,
     "description": "The greatest visual impact comes when you enter the vast majestic main concourse. ",
     "index_photo": "http://static.tripexpert.com/images/venues/index_photos/index_retina/2324937.jpg"
   },
   {
-    "id": "51",
+    "id": 51,
     "venue_type_id": 3,
     "name": "High Line",
     "tripexpert_score": 89,
@@ -512,7 +512,7 @@ export var VENUES: Venue[] = [
     "index_photo": "http://static.tripexpert.com/images/venues/index_photos/index_retina/917436.jpg"
   },
   {
-    "id": "52",
+    "id": 52,
     "venue_type_id": 3,
     "name": "Brooklyn Museum",
     "tripexpert_score": 88,
@@ -522,7 +522,7 @@ export var VENUES: Venue[] = [
     "index_photo": "http://static.tripexpert.com/images/venues/index_photos/index_retina/1148384.jpg"
   },
   {
-    "id": "53",
+    "id": 53,
     "venue_type_id": 3,
     "name": "New York Botanical Garden",
     "tripexpert_score": 87,
@@ -532,7 +532,7 @@ export var VENUES: Venue[] = [
     "index_photo": "http://static.tripexpert.com/images/venues/index_photos/index_retina/1262699.jpg"
   },
   {
-    "id": "54",
+    "id": 54,
     "venue_type_id": 3,
     "name": "Ellis Island",
     "tripexpert_score": 86,
@@ -542,7 +542,7 @@ export var VENUES: Venue[] = [
     "index_photo": "http://static.tripexpert.com/images/venues/index_photos/index_retina/2325083.jpg"
   },
   {
-    "id": "55",
+    "id": 55,
     "venue_type_id": 3,
     "name": "The Cloisters",
     "tripexpert_score": 85,
@@ -552,7 +552,7 @@ export var VENUES: Venue[] = [
     "index_photo": "http://static.tripexpert.com/images/venues/index_photos/index_retina/2325712.jpg"
   },
   {
-    "id": "56",
+    "id": 56,
     "venue_type_id": 3,
     "name": "New-York Historical Society",
     "tripexpert_score": 84,
@@ -562,7 +562,7 @@ export var VENUES: Venue[] = [
     "index_photo": "http://static.tripexpert.com/images/venues/index_photos/index_retina/2328591.jpg"
   },
   {
-    "id": "57",
+    "id": 57,
     "venue_type_id": 3,
     "name": "United Nations Headquarters",
     "tripexpert_score": 83,
@@ -572,7 +572,7 @@ export var VENUES: Venue[] = [
     "index_photo": "http://static.tripexpert.com/images/venues/index_photos/index_retina/2326023.jpg"
   },
   {
-    "id": "58",
+    "id": 58,
     "venue_type_id": 3,
     "name": "Washington Square Park",
     "tripexpert_score": 82,
@@ -582,7 +582,7 @@ export var VENUES: Venue[] = [
     "index_photo": "http://static.tripexpert.com/images/venues/index_photos/index_retina/2328676.jpg"
   },
   {
-    "id": "59",
+    "id": 59,
     "venue_type_id": 3,
     "name": "Staten Island Ferry",
     "tripexpert_score": 81,
@@ -592,7 +592,7 @@ export var VENUES: Venue[] = [
     "index_photo": "http://static.tripexpert.com/images/venues/index_photos/index_retina/2329438.jpg"
   },
   {
-    "id": "60",
+    "id": 60,
     "venue_type_id": 3,
     "name": "Rubin Museum of Art",
     "tripexpert_score": 80,

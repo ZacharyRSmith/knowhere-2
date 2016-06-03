@@ -5,6 +5,23 @@ import { GROUPS } from './mock-groups';
 
 @Injectable()
 export class GroupService {
+  // addParticipant(data) {
+  //   return $http({
+  //     method: 'POST',
+  //     url: '/api/group/add',
+  //     data: data
+  //   });
+  // }
+
+  // create(group: Group) {
+  //   return $http({
+  //     method: 'POST',
+  //     url: '/api/group',
+  //     data: group
+  //   })
+  //     .then(res => res.data);
+  // }
+
   create(group: Group) {
     return Promise.resolve(GROUPS)
       .then(groups => {
@@ -32,4 +49,13 @@ export class GroupService {
   getGroups() {
     return Promise.resolve(GROUPS);
   }
+
+  // removeMember(params: Object) {
+  //   return $http({
+  //     method: 'DELETE',
+  //     url: '/api/group/user',
+  //     params
+  //   })
+  //     .then(res => res.data);
+  // }
 }
