@@ -15,6 +15,11 @@ export class RatingService {
       });
   }
 
+  // del(venue: Venue) {
+  //   return Promise.resolve(RATINGS);
+  //   // TODO
+  // }
+
   getRatings() {
     return Promise.resolve(RATINGS)
       // FIXME
