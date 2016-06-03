@@ -18,4 +18,9 @@ export class RatingsComponent implements OnInit {
     this.ratingService.getRatings()
       .then((rs: Rating[]) => this.ratings = rs);
   }
+
+  del(rating: Rating) {
+    this.ratingService.del(rating)
+      .then((rs: Rating[]) => this.ratings = rs);
+  }
 }

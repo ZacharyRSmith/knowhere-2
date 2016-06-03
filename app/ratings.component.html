@@ -2,7 +2,9 @@
   <h4>Ratings</h4>
 
   <div *ngFor="let rating of ratings" class="col-md-3 col-sm-4">
-    {{rating.id}}: {{rating.rating}}/10 for {{rating.venue_id}}.
+    {{rating.id}}: <input [(ngModel)]="rating.rating" />/10 for {{rating.venue_id}}
+
+    <button (click)="del(rating)">Delete</button>
   </div>
 </div>
 
