@@ -3,6 +3,7 @@ import { RouteConfig, ROUTER_DIRECTIVES, ROUTER_PROVIDERS }
   from '@angular/router-deprecated';
 
 import { Group } from './group';
+import { AboutComponent } from './about.component';
 import { DestinationDetailComponent } from './destination-detail.component';
 import { GroupDetailComponent } from './group-detail.component';
 import { GroupsComponent } from './groups.component';
@@ -33,6 +34,7 @@ import { VenueService } from './venue.service';
     <h1>{{title}}</h1>
     <nav>
       <a [routerLink]="['Home']">Home</a>
+      <a [routerLink]="['About']">About</a>
       <a [routerLink]="['Groups']">Groups</a>
       <a [routerLink]="['Itinerary']">Itinerary</a>
       <a [routerLink]="['Ratings']">Ratings</a>
@@ -47,6 +49,11 @@ import { VenueService } from './venue.service';
     name: 'Home',
     component: HomeComponent,
     useAsDefault: true
+  },
+  {
+    path: '/about',
+    name: 'About',
+    component: AboutComponent
   },
   {
     path: '/destination-detail',
