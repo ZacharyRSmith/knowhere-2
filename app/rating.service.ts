@@ -15,7 +15,7 @@ export class RatingService {
       });
   }
 
-  getRatings(venue: Venue) {
+  getRatings() {
     return Promise.resolve(RATINGS)
       // FIXME
       // .then((rs: Rating[]) => rs.filter(r => r.venue_id === venue.id));

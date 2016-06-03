@@ -6,6 +6,7 @@ import { DestinationDetailComponent } from './destination-detail.component';
 import { GroupDetailComponent } from './group-detail.component';
 import { GroupsComponent } from './groups.component';
 import { HomeComponent } from './home.component';
+import { RatingsComponent } from './ratings.component';
 import { DestinationService } from './destination.service';
 import { GroupService } from './group.service';
 import { RatingService } from './rating.service';
@@ -31,6 +32,7 @@ import { VenueService } from './venue.service';
     <nav>
       <a [routerLink]="['Home']">Home</a>
       <a [routerLink]="['Groups']">Groups</a>
+      <a [routerLink]="['Ratings']">Ratings</a>
     </nav>
     <router-outlet></router-outlet>
   `
@@ -57,6 +59,11 @@ import { VenueService } from './venue.service';
     path: '/groups',
     name: 'Groups',
     component: GroupsComponent
+  },
+  {
+    path: '/ratings',
+    name: 'Ratings',
+    component: RatingsComponent
   }
 ])
 
