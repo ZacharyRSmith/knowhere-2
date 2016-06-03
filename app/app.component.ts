@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import { RouteConfig, ROUTER_DIRECTIVES, ROUTER_PROVIDERS }
   from '@angular/router-deprecated';
 
+import { Group } from './group';
 import { DestinationDetailComponent } from './destination-detail.component';
 import { GroupDetailComponent } from './group-detail.component';
 import { GroupsComponent } from './groups.component';
@@ -75,5 +76,6 @@ import { VenueService } from './venue.service';
 ])
 
 export class AppComponent {
+  currentGroup: Group;
   title = 'Knowhere';
 }

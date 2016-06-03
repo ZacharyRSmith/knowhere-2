@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 
+import { Group } from './group';
 import { Rating } from './rating';
 import { Venue } from './venue';
 import { RatingService } from './rating.service';
@@ -37,6 +38,9 @@ export class ItineraryComponent implements OnInit {
         //   }
         // });
       });
+  }
+
+  onGroupSelection(group: Group) {
   }
 
   // del(venue: Venue) {
